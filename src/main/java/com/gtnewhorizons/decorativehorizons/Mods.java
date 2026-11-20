@@ -9,7 +9,8 @@ import cpw.mods.fml.common.Loader;
 /** Same pattern as GT5-Unofficial's gregtech.api.enums.Mods. */
 public enum Mods implements IMod {
 
-    GregTech("gregtech");
+    GregTech("gregtech"),
+    Waila("Waila");
 
     public final String id;
     public final String resourceDomain;

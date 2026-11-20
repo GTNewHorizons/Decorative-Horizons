@@ -38,7 +38,7 @@ dependencies {
 
     runtimeOnly("com.falsepattern:endlessids-mc1.7.10:1.7.4:dev")
     api("com.github.GTNewHorizons:GTNHLib:0.12.8:dev")
-
+    compileOnly("com.github.GTNewHorizons:waila:1.19.34:dev")
 
     // Dev only
     runtimeOnlyNonPublishable("com.github.GTNewHorizons:Catwalks-2:2.5.0-GTNH:dev")

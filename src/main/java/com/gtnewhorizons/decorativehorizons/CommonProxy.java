@@ -1,6 +1,7 @@
 package com.gtnewhorizons.decorativehorizons;
 
 import com.gtnewhorizons.decorativehorizons.catwalks.Catwalks;
+import com.gtnewhorizons.decorativehorizons.core.WailaStacks;
 import com.gtnewhorizons.decorativehorizons.core.wrench.DebugWrench;
 import com.gtnewhorizons.decorativehorizons.materials.Materials;
 import com.gtnewhorizons.decorativehorizons.rails.Rails;
@@ -18,7 +19,9 @@ public class CommonProxy {
         DebugWrench.register();
     }
 
-    public void init(FMLInitializationEvent event) {}
+    public void init(FMLInitializationEvent event) {
+        if (Mods.Waila.isModLoaded()) WailaStacks.init();
+    }
 
     public void postInit(FMLPostInitializationEvent event) {}
 
