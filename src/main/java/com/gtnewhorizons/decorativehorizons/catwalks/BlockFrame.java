@@ -43,10 +43,9 @@ public abstract class BlockFrame extends Block implements IBlockWithOutlineShape
         this.variantShift = variantShift;
         setBlockName(DecorativeHorizons.MODID + "." + name);
         setBlockTextureName(DecorativeHorizons.MODID + ":catwalks/" + particleTexture);
-        setHardness(2.0F);
+        setHardness(1.0F);
         setResistance(10.0F);
         setStepSound(soundTypeMetal);
-        setHarvestLevel("pickaxe", 0);
     }
 
     @Override
@@ -88,6 +87,16 @@ public abstract class BlockFrame extends Block implements IBlockWithOutlineShape
 
     protected OutlineShape getPartsShape(World world, int x, int y, int z) {
         return FULL;
+    }
+
+    @Override
+    public String getHarvestTool(int meta) {
+        return "wrench";
+    }
+
+    @Override
+    public int getHarvestLevel(int meta) {
+        return 0;
     }
 
     @Override

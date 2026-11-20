@@ -13,10 +13,12 @@ import com.gtnewhorizons.decorativehorizons.core.Boxes;
 /**
  * The sturdy rails, and the code that the rail classes share. The rail classes extend three different vanilla rails.
  * Each rail class has an {@code onNeighborBlockChange} without vanilla's support check, so the rail stays in place with
- * no block underneath.
+ * no block underneath. Rails are a circuits material, not iron, so each rail class also returns true from
+ * {@code isToolEffective} for a pickaxe.
  */
 public final class Rails {
 
+    private static final float GT_MACHINE_HARDNESS = 1.0F;
     private static final AxisAlignedBB WALKWAY = Boxes.px(0, 0, 0, 16, 1, 16);
 
     public static final Block STURDY_RAIL = new BlockSturdyRail();
@@ -34,7 +36,8 @@ public final class Rails {
     }
 
     public static void setup(Block rail, String name) {
-        rail.setHardness(0.7F);
+        rail.setHardness(GT_MACHINE_HARDNESS);
+        rail.setHarvestLevel("wrench", 0);
         rail.setStepSound(Block.soundTypeMetal);
         rail.setBlockName(DecorativeHorizons.MODID + "." + name);
         // TODO: Must be replaced. The rail textures are copies of vanilla's, as placeholders.

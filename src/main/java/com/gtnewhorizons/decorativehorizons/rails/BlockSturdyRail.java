@@ -54,6 +54,11 @@ public class BlockSturdyRail extends BlockRail implements ISturdyRail {
     }
 
     @Override
+    public boolean isToolEffective(String type, int metadata) {
+        return "pickaxe".equals(type) || super.isToolEffective(type, metadata);
+    }
+
+    @Override
     public ForgeDirection[] getValidRotations(World world, int x, int y, int z) {
         return new ForgeDirection[0];
     }
