@@ -1,4 +1,4 @@
-package com.gtnewhorizons.decorativesnh;
+package com.gtnewhorizons.decorativehorizons;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,19 +10,19 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(
-    modid = DecorativesNH.MODID,
-    name = DecorativesNH.NAME,
+    modid = DecorativeHorizons.MODID,
+    name = DecorativeHorizons.NAME,
     version = Tags.VERSION,
     acceptedMinecraftVersions = "[1.7.10]")
-public class DecorativesNH {
+public class DecorativeHorizons {
 
-    public static final String MODID = "decorativesnh";
-    public static final String NAME = "Decoratives NH";
+    public static final String MODID = "decorativehorizons";
+    public static final String NAME = "Decorative Horizons";
     public static final Logger LOG = LogManager.getLogger(MODID);
 
     @SidedProxy(
-        clientSide = "com.gtnewhorizons.decorativesnh.ClientProxy",
-        serverSide = "com.gtnewhorizons.decorativesnh.CommonProxy")
+        clientSide = "com.gtnewhorizons.decorativehorizons.ClientProxy",
+        serverSide = "com.gtnewhorizons.decorativehorizons.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler

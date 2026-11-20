@@ -3,10 +3,10 @@
 	"modList": [{
 		"modid": "${modId}",
 		"name": "${modName}",
-		"description": "Decorative things",
+		"description": "Adds decorative things",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "https://github.com/GTNewHorizons/Decoratives-NH",
+		"url": "https://github.com/GTNewHorizons/Decorative-Horizons",
 		"updateUrl": "",
 		"authorList": ["Armisael"],
 		"credits": "",

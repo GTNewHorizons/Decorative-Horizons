@@ -1,4 +1,4 @@
-package com.gtnewhorizons.decorativesnh;
+package com.gtnewhorizons.decorativehorizons;
 
 import java.io.File;
 

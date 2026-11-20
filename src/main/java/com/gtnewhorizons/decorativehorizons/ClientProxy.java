@@ -1,4 +1,4 @@
-package com.gtnewhorizons.decorativesnh;
+package com.gtnewhorizons.decorativehorizons;
 
 public class ClientProxy extends CommonProxy {
 }

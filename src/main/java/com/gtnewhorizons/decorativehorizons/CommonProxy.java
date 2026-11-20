@@ -1,4 +1,4 @@
-package com.gtnewhorizons.decorativesnh;
+package com.gtnewhorizons.decorativehorizons;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
