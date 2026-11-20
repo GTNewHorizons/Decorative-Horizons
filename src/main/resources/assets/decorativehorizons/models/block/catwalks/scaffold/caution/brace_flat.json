@@ -1,0 +1,19 @@
+{
+  "textures": {"scaffold_brace_flat_north": "decorativehorizons:blocks/catwalks/scaffold/caution/brace_flat_north", "scaffold_brace_flat_south": "decorativehorizons:blocks/catwalks/scaffold/caution/brace_flat_south", "particle": "decorativehorizons:blocks/catwalks/scaffold/caution/frame"},
+  "elements": [
+    {
+      "from": [0, 0, 0.5],
+      "to": [16, 16, 0.5],
+      "faces": {
+        "north": {
+          "uv": [0.0, 0.0, 16.0, 16.0],
+          "texture": "#scaffold_brace_flat_north"
+        },
+        "south": {
+          "uv": [0.0, 0.0, 16.0, 16.0],
+          "texture": "#scaffold_brace_flat_south"
+        }
+      }
+    }
+  ]
+}

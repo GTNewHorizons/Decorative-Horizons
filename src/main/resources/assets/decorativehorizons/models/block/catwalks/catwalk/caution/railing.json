@@ -1,0 +1,53 @@
+{
+  "textures": {"railing": "decorativehorizons:blocks/catwalks/catwalk/caution/railing", "handrail": "decorativehorizons:blocks/catwalks/catwalk/caution/handrail", "particle": "decorativehorizons:blocks/catwalks/catwalk/caution/railing"},
+  "elements": [
+    {
+      "from": [0, 1, 0],
+      "to": [1, 16, 1],
+      "faces": {
+        "north": {"texture": "#railing", "cullface": "north"},
+        "south": {"texture": "#railing"},
+        "west": {"texture": "#railing", "cullface": "west"},
+        "east": {"texture": "#railing"},
+        "up": {"texture": "#railing", "cullface": "up"},
+        "down": {"texture": "#railing"}
+      }
+    },
+    {
+      "from": [15, 1, 0],
+      "to": [16, 16, 1],
+      "faces": {
+        "north": {"texture": "#railing", "cullface": "north"},
+        "south": {"texture": "#railing"},
+        "west": {"texture": "#railing"},
+        "east": {"texture": "#railing", "cullface": "east"},
+        "up": {"texture": "#railing", "cullface": "up"},
+        "down": {"texture": "#railing"}
+      }
+    },
+    {
+      "from": [1, 14, 0],
+      "to": [15, 16, 1],
+      "faces": {
+        "north": {"texture": "#handrail", "cullface": "north"},
+        "south": {"texture": "#handrail"},
+        "west": {"texture": "#handrail"},
+        "east": {"texture": "#handrail"},
+        "up": {"texture": "#handrail", "cullface": "up"},
+        "down": {"texture": "#handrail"}
+      }
+    },
+    {
+      "from": [1, 6, 0],
+      "to": [15, 8, 1],
+      "faces": {
+        "north": {"texture": "#railing", "cullface": "north"},
+        "south": {"texture": "#railing"},
+        "west": {"texture": "#railing"},
+        "east": {"texture": "#railing"},
+        "up": {"texture": "#railing"},
+        "down": {"texture": "#railing"}
+      }
+    }
+  ]
+}

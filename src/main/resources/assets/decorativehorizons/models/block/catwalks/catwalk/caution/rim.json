@@ -1,0 +1,17 @@
+{
+  "textures": {"grate": "decorativehorizons:blocks/catwalks/catwalk/caution/grate", "particle": "decorativehorizons:blocks/catwalks/catwalk/caution/grate"},
+  "elements": [
+    {
+      "from": [1, 0, 0],
+      "to": [15, 1, 1],
+      "faces": {
+        "north": {"texture": "#grate", "cullface": "north"},
+        "south": {"texture": "#grate"},
+        "west": {"texture": "#grate"},
+        "east": {"texture": "#grate"},
+        "up": {"texture": "#grate"},
+        "down": {"texture": "#grate", "cullface": "down"}
+      }
+    }
+  ]
+}

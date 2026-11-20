@@ -1,0 +1,220 @@
+{
+  "multipart": [
+    {
+      "when": {"floor": "true", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/floor"}
+    },
+    {
+      "when": {"floor": "true", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/floor"}
+    },
+    {
+      "when": {"facing": "north", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/rungs", "y": 0}
+    },
+    {
+      "when": {"facing": "north", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/rungs", "y": 0}
+    },
+    {
+      "when": {"facing": "east", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/rungs", "y": 90}
+    },
+    {
+      "when": {"facing": "east", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/rungs", "y": 90}
+    },
+    {
+      "when": {"facing": "south", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/rungs", "y": 180}
+    },
+    {
+      "when": {"facing": "south", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/rungs", "y": 180}
+    },
+    {
+      "when": {"facing": "west", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/rungs", "y": 270}
+    },
+    {
+      "when": {"facing": "west", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/rungs", "y": 270}
+    },
+    {
+      "when": {"west": "wall", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/wall", "y": 0}
+    },
+    {
+      "when": {"west": "wall", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/wall", "y": 0}
+    },
+    {
+      "when": {"north": "wall", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/wall", "y": 90}
+    },
+    {
+      "when": {"north": "wall", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/wall", "y": 90}
+    },
+    {
+      "when": {"east": "wall", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/wall", "y": 180}
+    },
+    {
+      "when": {"east": "wall", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/wall", "y": 180}
+    },
+    {
+      "when": {"south": "wall", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/wall", "y": 270}
+    },
+    {
+      "when": {"south": "wall", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/wall", "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "caution": "false"},
+          {"west": "wall", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner", "y": 0}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "caution": "true"},
+          {"west": "wall", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner", "y": 0}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "floor": "false", "caution": "false"},
+          {"west": "wall", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner_foot", "y": 0}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "floor": "false", "caution": "true"},
+          {"west": "wall", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner_foot", "y": 0}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "caution": "false"},
+          {"east": "wall", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner", "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "caution": "true"},
+          {"east": "wall", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner", "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "floor": "false", "caution": "false"},
+          {"east": "wall", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner_foot", "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north": "wall", "floor": "false", "caution": "true"},
+          {"east": "wall", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner_foot", "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "caution": "false"},
+          {"east": "wall", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner", "y": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "caution": "true"},
+          {"east": "wall", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner", "y": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "floor": "false", "caution": "false"},
+          {"east": "wall", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner_foot", "y": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "floor": "false", "caution": "true"},
+          {"east": "wall", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner_foot", "y": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "caution": "false"},
+          {"west": "wall", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner", "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "caution": "true"},
+          {"west": "wall", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner", "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "floor": "false", "caution": "false"},
+          {"west": "wall", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/corner_foot", "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south": "wall", "floor": "false", "caution": "true"},
+          {"west": "wall", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/caged_ladder/caution/corner_foot", "y": 270}
+    }
+  ]
+}

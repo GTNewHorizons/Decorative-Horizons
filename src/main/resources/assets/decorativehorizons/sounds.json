@@ -1,0 +1,27 @@
+{
+  "caged_ladder.climb": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "minecraft:step/ladder1",
+        "pitch": 1.3
+      },
+      {
+        "name": "minecraft:step/ladder2",
+        "pitch": 1.3
+      },
+      {
+        "name": "minecraft:step/ladder3",
+        "pitch": 1.3
+      },
+      {
+        "name": "minecraft:step/ladder4",
+        "pitch": 1.3
+      },
+      {
+        "name": "minecraft:step/ladder5",
+        "pitch": 1.3
+      }
+    ]
+  }
+}

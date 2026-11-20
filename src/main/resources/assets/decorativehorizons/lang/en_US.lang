@@ -1,0 +1,23 @@
+itemGroup.decorativehorizons=Decorative Horizons
+
+tile.decorativehorizons.catwalk.name=Catwalk
+tile.decorativehorizons.lit_catwalk.name=Lit Catwalk
+tile.decorativehorizons.catwalk_caution.name=Catwalk (Caution)
+tile.decorativehorizons.lit_catwalk_caution.name=Lit Catwalk (Caution)
+tile.decorativehorizons.caged_ladder.name=Caged Ladder
+tile.decorativehorizons.caged_ladder_caution.name=Caged Ladder (Caution)
+tile.decorativehorizons.scaffold.name=Scaffold
+tile.decorativehorizons.flat_scaffold.name=Flat Scaffold
+tile.decorativehorizons.stepped_scaffold.name=Stepped Scaffold
+tile.decorativehorizons.scaffold_caution.name=Scaffold (Caution)
+tile.decorativehorizons.flat_scaffold_caution.name=Flat Scaffold (Caution)
+tile.decorativehorizons.stepped_scaffold_caution.name=Stepped Scaffold (Caution)
+tile.decorativehorizons.support_column.name=Support Column
+tile.decorativehorizons.support_column_caution.name=Support Column (Caution)
+tile.decorativehorizons.sturdy_rail.name=Sturdy Rail
+tile.decorativehorizons.sturdy_powered_rail.name=Sturdy Powered Rail
+tile.decorativehorizons.sturdy_detector_rail.name=Sturdy Detector Rail
+tile.decorativehorizons.sturdy_activator_rail.name=Sturdy Activator Rail
+
+item.decorativehorizons.iron_grate.name=Iron Grate
+item.decorativehorizons.debug_wrench.name=Debug Catwalk Wrench

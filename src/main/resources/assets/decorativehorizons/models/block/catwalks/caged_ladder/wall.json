@@ -1,0 +1,29 @@
+{
+  "textures": {"cage": "decorativehorizons:blocks/catwalks/caged_ladder/cage", "particle": "decorativehorizons:blocks/catwalks/caged_ladder/cage"},
+  "elements": [
+    {
+      "from": [0, 6, 1],
+      "to": [1, 8, 15],
+      "faces": {
+        "north": {"texture": "#cage"},
+        "south": {"texture": "#cage"},
+        "west": {"texture": "#cage", "cullface": "west"},
+        "east": {"texture": "#cage"},
+        "up": {"texture": "#cage"},
+        "down": {"texture": "#cage"}
+      }
+    },
+    {
+      "from": [0, 14, 1],
+      "to": [1, 16, 15],
+      "faces": {
+        "north": {"texture": "#cage"},
+        "south": {"texture": "#cage"},
+        "west": {"texture": "#cage", "cullface": "west"},
+        "east": {"texture": "#cage"},
+        "up": {"texture": "#cage", "cullface": "up"},
+        "down": {"texture": "#cage"}
+      }
+    }
+  ]
+}

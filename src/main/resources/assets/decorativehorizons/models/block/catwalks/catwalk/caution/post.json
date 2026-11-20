@@ -1,0 +1,17 @@
+{
+  "textures": {"railing": "decorativehorizons:blocks/catwalks/catwalk/caution/railing", "particle": "decorativehorizons:blocks/catwalks/catwalk/caution/railing"},
+  "elements": [
+    {
+      "from": [0, 1, 0],
+      "to": [1, 16, 1],
+      "faces": {
+        "north": {"texture": "#railing", "cullface": "north"},
+        "south": {"texture": "#railing"},
+        "west": {"texture": "#railing", "cullface": "west"},
+        "east": {"texture": "#railing"},
+        "up": {"texture": "#railing", "cullface": "up"},
+        "down": {"texture": "#railing"}
+      }
+    }
+  ]
+}

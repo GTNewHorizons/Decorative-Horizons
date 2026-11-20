@@ -1,0 +1,156 @@
+{
+  "multipart": [
+    {
+      "when": {"caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/core"}
+    },
+    {
+      "when": {"caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/core"}
+    },
+    {
+      "when": {"north": "joined", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm"}
+    },
+    {
+      "when": {"north": "joined", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm"}
+    },
+    {
+      "when": {"north": "end", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm_end"}
+    },
+    {
+      "when": {"north": "end", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm_end"}
+    },
+    {
+      "when": {"north": "none", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/face"}
+    },
+    {
+      "when": {"north": "none", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/face"}
+    },
+    {
+      "when": {"east": "joined", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm", "y": 90}
+    },
+    {
+      "when": {"east": "joined", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm", "y": 90}
+    },
+    {
+      "when": {"east": "end", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm_end", "y": 90}
+    },
+    {
+      "when": {"east": "end", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm_end", "y": 90}
+    },
+    {
+      "when": {"east": "none", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/face", "y": 90}
+    },
+    {
+      "when": {"east": "none", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/face", "y": 90}
+    },
+    {
+      "when": {"south": "joined", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm", "y": 180}
+    },
+    {
+      "when": {"south": "joined", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm", "y": 180}
+    },
+    {
+      "when": {"south": "end", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm_end", "y": 180}
+    },
+    {
+      "when": {"south": "end", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm_end", "y": 180}
+    },
+    {
+      "when": {"south": "none", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/face", "y": 180}
+    },
+    {
+      "when": {"south": "none", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/face", "y": 180}
+    },
+    {
+      "when": {"west": "joined", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm", "y": 270}
+    },
+    {
+      "when": {"west": "joined", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm", "y": 270}
+    },
+    {
+      "when": {"west": "end", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm_end", "y": 270}
+    },
+    {
+      "when": {"west": "end", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm_end", "y": 270}
+    },
+    {
+      "when": {"west": "none", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/face", "y": 270}
+    },
+    {
+      "when": {"west": "none", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/face", "y": 270}
+    },
+    {
+      "when": {"down": "joined", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm", "x": 90}
+    },
+    {
+      "when": {"down": "joined", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm", "x": 90}
+    },
+    {
+      "when": {"down": "end", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm_end", "x": 90}
+    },
+    {
+      "when": {"down": "end", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm_end", "x": 90}
+    },
+    {
+      "when": {"down": "none", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/face", "x": 90}
+    },
+    {
+      "when": {"down": "none", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/face", "x": 90}
+    },
+    {
+      "when": {"up": "joined", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm", "x": 270}
+    },
+    {
+      "when": {"up": "joined", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm", "x": 270}
+    },
+    {
+      "when": {"up": "end", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/arm_end", "x": 270}
+    },
+    {
+      "when": {"up": "end", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/arm_end", "x": 270}
+    },
+    {
+      "when": {"up": "none", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/face", "x": 270}
+    },
+    {
+      "when": {"up": "none", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/support_column/caution/face", "x": 270}
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "multipart": [
+    {
+      "when": {"floor": "true", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/floor"}
+    },
+    {
+      "when": {"floor": "true", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/floor"}
+    },
+    {
+      "when": {"north": "railing", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/railing", "y": 0}
+    },
+    {
+      "when": {"north": "railing", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/railing", "y": 0}
+    },
+    {
+      "when": {"north": "railing", "lit": "true", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/light", "y": 0}
+    },
+    {
+      "when": {"north": "railing", "lit": "true", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/light", "y": 0}
+    },
+    {
+      "when": {"north": "rim", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim", "y": 0}
+    },
+    {
+      "when": {"north": "rim", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim", "y": 0}
+    },
+    {
+      "when": {"east": "railing", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/railing", "y": 90}
+    },
+    {
+      "when": {"east": "railing", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/railing", "y": 90}
+    },
+    {
+      "when": {"east": "railing", "lit": "true", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/light", "y": 90}
+    },
+    {
+      "when": {"east": "railing", "lit": "true", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/light", "y": 90}
+    },
+    {
+      "when": {"east": "rim", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim", "y": 90}
+    },
+    {
+      "when": {"east": "rim", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim", "y": 90}
+    },
+    {
+      "when": {"south": "railing", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/railing", "y": 180}
+    },
+    {
+      "when": {"south": "railing", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/railing", "y": 180}
+    },
+    {
+      "when": {"south": "railing", "lit": "true", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/light", "y": 180}
+    },
+    {
+      "when": {"south": "railing", "lit": "true", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/light", "y": 180}
+    },
+    {
+      "when": {"south": "rim", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim", "y": 180}
+    },
+    {
+      "when": {"south": "rim", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim", "y": 180}
+    },
+    {
+      "when": {"west": "railing", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/railing", "y": 270}
+    },
+    {
+      "when": {"west": "railing", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/railing", "y": 270}
+    },
+    {
+      "when": {"west": "railing", "lit": "true", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/light", "y": 270}
+    },
+    {
+      "when": {"west": "railing", "lit": "true", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/light", "y": 270}
+    },
+    {
+      "when": {"west": "rim", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim", "y": 270}
+    },
+    {
+      "when": {"west": "rim", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim", "y": 270}
+    },
+    {
+      "when": {"north_west": "post", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/post", "y": 0}
+    },
+    {
+      "when": {"north_west": "post", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/post", "y": 0}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north_west": "foot", "caution": "false"},
+          {"north_west": "post", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/foot", "y": 0}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north_west": "foot", "caution": "true"},
+          {"north_west": "post", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/foot", "y": 0}
+    },
+    {
+      "when": {"north_west": "grate", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim_corner", "y": 0}
+    },
+    {
+      "when": {"north_west": "grate", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim_corner", "y": 0}
+    },
+    {
+      "when": {"north_east": "post", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/post", "y": 90}
+    },
+    {
+      "when": {"north_east": "post", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/post", "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north_east": "foot", "caution": "false"},
+          {"north_east": "post", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/foot", "y": 90}
+    },
+    {
+      "when": {
+        "OR": [
+          {"north_east": "foot", "caution": "true"},
+          {"north_east": "post", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/foot", "y": 90}
+    },
+    {
+      "when": {"north_east": "grate", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim_corner", "y": 90}
+    },
+    {
+      "when": {"north_east": "grate", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim_corner", "y": 90}
+    },
+    {
+      "when": {"south_east": "post", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/post", "y": 180}
+    },
+    {
+      "when": {"south_east": "post", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/post", "y": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south_east": "foot", "caution": "false"},
+          {"south_east": "post", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/foot", "y": 180}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south_east": "foot", "caution": "true"},
+          {"south_east": "post", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/foot", "y": 180}
+    },
+    {
+      "when": {"south_east": "grate", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim_corner", "y": 180}
+    },
+    {
+      "when": {"south_east": "grate", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim_corner", "y": 180}
+    },
+    {
+      "when": {"south_west": "post", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/post", "y": 270}
+    },
+    {
+      "when": {"south_west": "post", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/post", "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south_west": "foot", "caution": "false"},
+          {"south_west": "post", "floor": "false", "caution": "false"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/foot", "y": 270}
+    },
+    {
+      "when": {
+        "OR": [
+          {"south_west": "foot", "caution": "true"},
+          {"south_west": "post", "floor": "false", "caution": "true"}
+        ]
+      },
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/foot", "y": 270}
+    },
+    {
+      "when": {"south_west": "grate", "caution": "false"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/rim_corner", "y": 270}
+    },
+    {
+      "when": {"south_west": "grate", "caution": "true"},
+      "apply": {"model": "decorativehorizons:block/catwalks/catwalk/caution/rim_corner", "y": 270}
+    }
+  ]
+}

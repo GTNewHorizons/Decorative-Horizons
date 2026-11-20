@@ -1,0 +1,17 @@
+{
+  "textures": {"frame": "decorativehorizons:blocks/catwalks/scaffold/caution/frame", "particle": "decorativehorizons:blocks/catwalks/scaffold/caution/frame"},
+  "elements": [
+    {
+      "from": [1, 15, 0],
+      "to": [15, 16, 1],
+      "faces": {
+        "north": {"texture": "#frame", "cullface": "north"},
+        "south": {"texture": "#frame"},
+        "west": {"texture": "#frame"},
+        "east": {"texture": "#frame"},
+        "up": {"texture": "#frame", "cullface": "up"},
+        "down": {"texture": "#frame"}
+      }
+    }
+  ]
+}
