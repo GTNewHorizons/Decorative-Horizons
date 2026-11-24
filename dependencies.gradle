@@ -39,10 +39,11 @@ dependencies {
     runtimeOnly("com.falsepattern:endlessids-mc1.7.10:1.7.4:dev")
     api("com.github.GTNewHorizons:GTNHLib:0.12.8:dev")
     compileOnly("com.github.GTNewHorizons:waila:1.19.34:dev")
+    compileOnly("com.github.GTNewHorizons:GT5-Unofficial:5.09.55.36:dev") { transitive = false }
 
     // Dev only
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:Catwalks-2:2.5.0-GTNH:dev")
-    devOnlyNonPublishable("com.github.GTNewHorizons:GT5-Unofficial:5.09.55.25:dev")
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.8.172-GTNH:dev")
-    runtimeOnlyNonPublishable("thaumcraft:Thaumcraft:1.7.10-4.2.3.5:dev") { exclude module: "Baubles" }
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:Catwalks-2:2.5.0-GTNH:dev") // for in-world comparison TODO: Remove
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:CodeChickenCore:1.5.1:dev") // Catwalks-2 needs it but doesn't declare it, TODO: Remove
+    //devOnlyNonPublishable("com.github.GTNewHorizons:GT5-Unofficial:5.09.55.36:dev")
+
 }
